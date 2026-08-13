@@ -2,8 +2,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://aliyun.com/repository/public' }
-        maven { url 'https://huawei.com/repo/' }
         maven { url 'https://jitpack.io' }
     }
     dependencies {
@@ -17,8 +15,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://aliyun.com/repository/public' }
-        maven { url 'https://huawei.com/repo/' }
         maven { url 'https://jitpack.io' }
     }
 }
