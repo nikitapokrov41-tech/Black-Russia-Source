@@ -2,24 +2,25 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        maven { url 'https://aliyun.com' }
+        maven { url 'https://huawei.com' }
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.4'
         classpath 'com.google.gms:google-services:4.3.3'
-        classpath("com.google.firebase:firebase-crashlytics-gradle:2.9.4")
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.4'
     }
 }
 
 allprojects {
     repositories {
         google()
-        jcenter()
-        maven {
-            url "https://jitpack.io"
-        }
+        mavenCentral()
+        maven { url 'https://aliyun.com' }
+        maven { url 'https://huawei.com' }
+        maven { url 'https://jitpack.io' }
     }
 }
 
