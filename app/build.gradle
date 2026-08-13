@@ -1,12 +1,3 @@
-gbuildscript {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://aliyun.com' }
-        maven { url 'https://huawei.com' }
-        maven { url 'https://jitpack.io' }
-    }
-}
 
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
